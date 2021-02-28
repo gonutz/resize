@@ -5,13 +5,11 @@ Resize
 
 Image resizing for the [Go programming language](http://golang.org) with common interpolation methods.
 
-[![Build Status](https://travis-ci.org/nfnt/resize.svg)](https://travis-ci.org/nfnt/resize)
-
 Installation
 ------------
 
 ```bash
-$ go get github.com/nfnt/resize
+$ go get github.com/gonutz/resize
 ```
 
 It's that easy!
@@ -22,7 +20,7 @@ Usage
 This package needs at least Go 1.1. Import package with
 
 ```go
-import "github.com/nfnt/resize"
+import "github.com/gonutz/resize"
 ```
 
 The resize package provides 2 functions:
@@ -54,7 +52,7 @@ Sample usage:
 package main
 
 import (
-	"github.com/nfnt/resize"
+	"github.com/gonutz/resize"
 	"image/jpeg"
 	"log"
 	"os"
